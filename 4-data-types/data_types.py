@@ -89,3 +89,35 @@ print(first[0])
 print(first[1])
 print(first[-1])
 print(first[2:-1])
+
+# Methods that return boolean data
+print(first.startswith("I"))
+print(first.endswith("l"))
+
+#
+# Boolean Data Type
+#
+
+myvalue = True
+x = bool(False)
+print(type(x))
+print(isinstance(myvalue, bool))
+
+#
+# Numeric Data Type
+#
+
+# Integers
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+# Float
+gpa = 3.28
+y = float(1.14)
+print(type(gpa))
+
+# Built-in methods for numbers
+print(abs(gpa))
+print(round(gpa))
