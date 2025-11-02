@@ -1,6 +1,9 @@
 import sys  # to exit game
 import random  # to randomly choose for computer
-from enum import Enum
+from enum import Enum  # to map user inputs to values
+
+# Enum (short for Enumeration) is a way to create a group of named constant values.
+# using an Enum to make the values for Rock, Paper, and Scissors more readable.
 
 
 class RPS(Enum):
