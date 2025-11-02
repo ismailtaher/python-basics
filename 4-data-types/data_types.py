@@ -1,3 +1,4 @@
+import math  # math module
 #
 # String data type
 #
@@ -121,3 +122,19 @@ print(type(gpa))
 # Built-in methods for numbers
 print(abs(gpa))
 print(round(gpa))
+print(round(gpa, 1))
+
+# using math module
+
+print(math.pi)
+print(math.sqrt(64))
+print(math.ceil(gpa))
+print(math.floor(gpa))
+
+# casting a string to a number
+zipcode = "10001"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# error if you attempt to cast incorrect data
+# zip_value = int("New York")
